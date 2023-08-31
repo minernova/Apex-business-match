@@ -68,7 +68,7 @@ $row=mysqli_fetch_array($result);
                       <h4 class="text-white"><?php echo($row['investorName']) ?></h4>
                       <p class=" mb-1 text-secondary"><?php echo($row['orgnisationName']) ?></p>
                       <p class="text-muted font-size-sm"><?php echo($row['officeAddress']) ?></p>
-                      <button class="btn btn-primary">Message</button>
+                      <a href="chat.php" class="btn btn-primary">Message</a>
                     </div>
                   </div>
                 </div>
